@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  font-size: 30px;
+}
+
+/* react.js /css */
+
+/* .container {
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+  box-shadow: 10px 10px 10px #3c81abbf;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 10px 10px #3c81abbf;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items li {
+  padding: 14px;
+  font-size: 20px;
+}
+
+.image {
+  width: 60px;
+}
+
+.foot {
+  background-color: rgba(11, 11, 11, 0.359);
+  height: 55px;
+  text-align: center;
+  padding-top: 15px;
+} */
+
+
+/* counter.js /css */
+
+.btns {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-around;
+}
