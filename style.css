@@ -1,7 +1,7 @@
 body {
   text-align: center;
   justify-content: center;
-  margin: auto;
+  margin-top: 90px;
   padding: 0;
   font-size: 30px;
 }
@@ -48,9 +48,59 @@ body {
 
 /* counter.js /css */
 
-.btns {
+/* .btns {
   display: flex;
   width: 50%;
   margin: auto;
   justify-content: space-around;
+} */
+
+/* todo.js /css */
+
+.todo-container {
+  background-color: #640b0b85;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  height: fit-content;
+  padding: 20px;
+}
+
+h1 {
+  color: #2a0606b9;
+}
+
+input {
+  height: 40px;
+  width: 60%;
+  font-size: 18px;
+  background-color: #08080859;
+  color: white;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 8px;
+}
+
+button {
+  height: 45px;
+  width: 12%;
+  font-size: 18px;
+  background-color: #08080859;
+  color: #f5e9d3cc;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 8px
+}
+
+ol {
+  width: 100%;
+}
+
+li {
+  text-align: left;
+  margin: 20px ;
+  color: #2a0606b9;
+  font-weight: 500;
+}
+
+.btn1 {
+  margin-left: 30px;
 }

@@ -17,24 +17,32 @@ function Todo() {
     })
     setTodos(newTodos)
   }
-
-  const updateTodo = () => {}
+  
+  const updateTodo = (id) => {
+    const newEditTodos = todos.map((todo) => {
+      return todo !== id
+    })
+    setTodos(newEditTodos)
+  }
 
   return (
-    <div>
+    <div className='todo-container'>
     <h1>Todo List App</h1>
     <div>
       <input type="text" placeholder="create new todo" value={todo} onChange={(event) => {setTodo(event.target.value)}}/>
       <button onClick={addNewTodo}>add</button>
     </div>
 {/* display field */}
-    <ul>
+    <ol className='display-field'>
       {todos.map((todo)=>(
-        <li key={todo}>{todo}{<button onClick={() => deleteTodo(todo)}>delete</button>}{<button onClick={updateTodo}>edit</button>}
+        <li key={todo}>
+          {todo}
+            {<button className='btn1' onClick={() => updateTodo(todo)}>edit</button>}
+            {<button className='btn' onClick={() => deleteTodo(todo)}>delete</button>}
         </li>
       ))}
 
-    </ul>
+    </ol>
     </div>
   )
 }
